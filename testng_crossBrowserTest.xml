@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+
+	<test thread-count="5" name="EdgeTest">
+
+		<parameter name="br" value="edge"></parameter>
+		<!-- <parameter name="platform" value="andorid"> </parameter> 
+		<parameter name="mobiledevice" value="Samsung"></parameter> -->
+
+
+		<classes>
+			<class name="crossBrowserTest.NOPCommLogin" />
+		</classes>
+
+
+
+	</test>
+
+
+
+
+	<test thread-count="5" name="ChromeTest">
+
+		<parameter name="br" value="chrome"></parameter>
+
+
+		<classes>
+			<class name="crossBrowserTest.NOPCommLogin" />
+		</classes>
+
+
+
+	</test>
+
+
+
+
+	<test thread-count="5" name="FirefoxTest">
+
+		<parameter name="br" value="firefox"></parameter>
+
+
+		<classes>
+			<class name="crossBrowserTest.NOPCommLogin" />
+		</classes>
+
+
+
+	</test>
+
+
+
+</suite> 

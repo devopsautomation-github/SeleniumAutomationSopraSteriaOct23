@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-25T09:32:16Z" name="Suite" finished-at="2023-10-25T09:33:00Z" duration-ms="43966">
+    <groups>
+    </groups>
+    <test started-at="2023-10-25T09:32:16Z" name="Test" finished-at="2023-10-25T09:33:00Z" duration-ms="43966">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:test.LoginTest@301eda63]" started-at="2023-10-25T15:02:16Z" name="launchApp" finished-at="2023-10-25T15:02:32Z" duration-ms="15993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLoginFeature()[pri:0, instance:test.LoginTest@301eda63]" started-at="2023-10-25T15:02:32Z" name="verifyLoginFeature" finished-at="2023-10-25T15:02:55Z" duration-ms="22814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeature -->
+        <test-method is-config="true" signature="closingApp()[pri:0, instance:test.LoginTest@301eda63]" started-at="2023-10-25T15:02:55Z" name="closingApp" finished-at="2023-10-25T15:03:00Z" duration-ms="5122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingApp -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
